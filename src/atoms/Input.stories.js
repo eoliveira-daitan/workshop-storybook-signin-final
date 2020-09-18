@@ -9,15 +9,15 @@ export default {
 
 const Template = args => <Input {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const FirstStory = Template.bind({});
+FirstStory.args = {
   type: 'text',
   placeholder: 'Enter a value',
 };
 
 export const Email = Template.bind({});
 Email.args = {
-  ...Default.args,
+  ...FirstStory.args,
   label: 'Email',
   type: 'email',
   value: 'john.doe@gmail.com',
@@ -25,7 +25,7 @@ Email.args = {
 
 export const Password = Template.bind({});
 Password.args = {
-  ...Default.args,
+  ...FirstStory.args,
   label: 'Password',
   type: 'password',
   value: '123456789',

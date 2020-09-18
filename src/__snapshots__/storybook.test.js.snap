@@ -1,36 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Atoms/Button Default 1`] = `
-<div
-  style={
-    Object {
-      "background": "#ccc",
-      "padding": "2rem",
-    }
-  }
+<button
+  className="Button"
+  onClick={null}
 >
-  <button
-    className="Button"
-    onClick={null}
-  >
-    Button
-  </button>
-</div>
-`;
-
-exports[`Storyshots Atoms/Input Default 1`] = `
-<label
-  className="Input "
->
-  
-  <input
-    name=""
-    onChange={null}
-    placeholder="Enter a value"
-    type="text"
-    value=""
-  />
-</label>
+  Button
+</button>
 `;
 
 exports[`Storyshots Atoms/Input Email 1`] = `
@@ -41,11 +17,28 @@ exports[`Storyshots Atoms/Input Email 1`] = `
     Email
   </span>
   <input
+    label="Email"
     name=""
     onChange={null}
     placeholder="Enter a value"
     type="email"
     value="john.doe@gmail.com"
+  />
+</label>
+`;
+
+exports[`Storyshots Atoms/Input First Story 1`] = `
+<label
+  className="Input "
+>
+  
+  <input
+    label=""
+    name=""
+    onChange={null}
+    placeholder="Enter a value"
+    type="text"
+    value=""
   />
 </label>
 `;
@@ -58,6 +51,7 @@ exports[`Storyshots Atoms/Input Password 1`] = `
     Password
   </span>
   <input
+    label="Password"
     name=""
     onChange={null}
     placeholder="Enter a value"
@@ -86,6 +80,7 @@ exports[`Storyshots Molecules/SignInForm Default 1`] = `
       Email
     </span>
     <input
+      label="Email"
       name="email"
       onChange={null}
       placeholder="Enter your email"
@@ -116,6 +111,7 @@ exports[`Storyshots Molecules/SignInForm Fill Email Step 1`] = `
       Email
     </span>
     <input
+      label="Email"
       name="email"
       onChange={null}
       placeholder="Enter your email"
@@ -155,6 +151,7 @@ exports[`Storyshots Molecules/SignInForm Fill Password Step 1`] = `
       Password
     </span>
     <input
+      label="Password"
       name="password"
       onChange={null}
       placeholder="Enter your password"
@@ -190,6 +187,7 @@ exports[`Storyshots Pages/SignInPage Default 1`] = `
       Email
     </span>
     <input
+      label="Email"
       name="email"
       onChange={[Function]}
       placeholder="Enter your email"
