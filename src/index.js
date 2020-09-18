@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import SignInPage from './pages/SignInPage';
 import './index.css';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <p>
-      Hello World
-    </p>
+    <SignInPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

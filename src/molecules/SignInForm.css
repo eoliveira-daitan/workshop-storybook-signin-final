@@ -1,0 +1,35 @@
+.SignInForm {
+  margin: 0;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.SignInForm h2 {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.SignInForm a,
+.SignInForm a:link,
+.SignInForm a:visited {
+  color: #0ad;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.SignInForm a:hover,
+.SignInForm a:active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 450px) {
+  .SignInForm {
+    max-width: 450px;
+    margin: 3rem auto;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px #ddd;
+    padding: 2rem;
+  }
+}
