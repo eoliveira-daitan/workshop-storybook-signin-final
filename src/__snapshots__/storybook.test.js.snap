@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Button Default 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ccc",
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="Button"
+    onClick={null}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<label
+  className="Input "
+>
+  
+  <input
+    name=""
+    onChange={null}
+    placeholder="Enter a value"
+    type="text"
+    value=""
+  />
+</label>
+`;
+
+exports[`Storyshots Atoms/Input Email 1`] = `
+<label
+  className="Input "
+>
+  <span>
+    Email
+  </span>
+  <input
+    name=""
+    onChange={null}
+    placeholder="Enter a value"
+    type="email"
+    value="john.doe@gmail.com"
+  />
+</label>
+`;
+
+exports[`Storyshots Atoms/Input Password 1`] = `
+<label
+  className="Input Password"
+>
+  <span>
+    Password
+  </span>
+  <input
+    name=""
+    onChange={null}
+    placeholder="Enter a value"
+    type="password"
+    value="123456789"
+  />
+  <button
+    onClick={[Function]}
+  >
+    👁
+  </button>
+</label>
+`;
+
+exports[`Storyshots Molecules/SignInForm Default 1`] = `
+<section
+  className="SignInForm"
+>
+  <h2>
+    Sign-In
+  </h2>
+  <label
+    className="Input "
+  >
+    <span>
+      Email
+    </span>
+    <input
+      name="email"
+      onChange={null}
+      placeholder="Enter your email"
+      type="email"
+      value=""
+    />
+  </label>
+  <button
+    className="Button"
+    onClick={null}
+  >
+    Continue
+  </button>
+</section>
+`;
+
+exports[`Storyshots Molecules/SignInForm Fill Email Step 1`] = `
+<section
+  className="SignInForm"
+>
+  <h2>
+    Sign-In
+  </h2>
+  <label
+    className="Input "
+  >
+    <span>
+      Email
+    </span>
+    <input
+      name="email"
+      onChange={null}
+      placeholder="Enter your email"
+      type="email"
+      value="john.doe@gmail.com"
+    />
+  </label>
+  <button
+    className="Button"
+    onClick={null}
+  >
+    Continue
+  </button>
+</section>
+`;
+
+exports[`Storyshots Molecules/SignInForm Fill Password Step 1`] = `
+<section
+  className="SignInForm"
+>
+  <h2>
+    Sign-In
+  </h2>
+  <p>
+    john.doe@gmail.com
+     
+    <a
+      onClick={null}
+    >
+      Change
+    </a>
+  </p>
+  <label
+    className="Input Password"
+  >
+    <span>
+      Password
+    </span>
+    <input
+      name="password"
+      onChange={null}
+      placeholder="Enter your password"
+      type="password"
+      value="123456789"
+    />
+    <button
+      onClick={[Function]}
+    >
+      👁
+    </button>
+  </label>
+  <button
+    className="Button"
+    onClick={null}
+  >
+    Sign In
+  </button>
+</section>
+`;
+
+exports[`Storyshots Pages/SignInPage Default 1`] = `
+<section
+  className="SignInForm"
+>
+  <h2>
+    Sign-In
+  </h2>
+  <label
+    className="Input "
+  >
+    <span>
+      Email
+    </span>
+    <input
+      name="email"
+      onChange={[Function]}
+      placeholder="Enter your email"
+      type="email"
+      value=""
+    />
+  </label>
+  <button
+    className="Button"
+    onClick={[Function]}
+  >
+    Continue
+  </button>
+</section>
+`;
