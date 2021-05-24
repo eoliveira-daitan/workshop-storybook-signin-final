@@ -23,5 +23,5 @@ jobs:
         with:
           name: Reports
           path: |
-            .loki/
+            .loki
           if-no-files-found: error
